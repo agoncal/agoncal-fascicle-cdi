@@ -14,7 +14,7 @@
     <module>getting-started</module>
     <module>interceptors</module>
     <module>putting-together</module>
-    <module>writing-bean</module>
+    <module>writing-beans</module>
   </modules>
 
   <properties>
