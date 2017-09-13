@@ -19,5 +19,5 @@ public class BookService {
     book.setIsbn(numberGenerator.generateNumber());
     return book;
   }
-// end::adocsnippet[]
 }
+// end::adocsnippet[]
