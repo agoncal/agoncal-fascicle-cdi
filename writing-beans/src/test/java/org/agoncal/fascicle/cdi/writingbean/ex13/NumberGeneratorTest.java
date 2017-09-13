@@ -2,14 +2,14 @@ package org.agoncal.fascicle.cdi.writingbean.ex13;
 
 import org.agoncal.fascicle.cdi.writingbean.ex10.Book;
 import org.agoncal.fascicle.cdi.writingbean.ex10.BookService;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 import javax.enterprise.inject.se.SeContainer;
 import javax.enterprise.inject.se.SeContainerInitializer;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * @author Antonio Goncalves
@@ -29,13 +29,13 @@ public class NumberGeneratorTest {
   // =          Lifecycle Methods         =
   // ======================================
 
-  @BeforeClass
+  @BeforeAll
   public static void init() {
     containerInit = SeContainerInitializer.newInstance();
     container = containerInit.initialize();
   }
 
-  @AfterClass
+  @AfterAll
   public static void close() {
     container.close();
   }

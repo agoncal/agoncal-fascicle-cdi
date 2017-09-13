@@ -1,9 +1,9 @@
 package org.agoncal.fascicle.cdi.interceptors.ex05;
 
 import org.agoncal.fascicle.cdi.interceptors.Customer;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 import javax.enterprise.inject.se.SeContainer;
 import javax.enterprise.inject.se.SeContainerInitializer;
@@ -26,13 +26,13 @@ public class CustomerServiceTest {
   // =          Lifecycle Methods         =
   // ======================================
 
-  @BeforeClass
+  @BeforeAll
   public static void init() {
     containerInit = SeContainerInitializer.newInstance();
     container = containerInit.initialize();
   }
 
-  @AfterClass
+  @AfterAll
   public static void close() {
     container.close();
   }
