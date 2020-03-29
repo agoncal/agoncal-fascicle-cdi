@@ -14,7 +14,7 @@ public class Book {
   private String number;
 
   // Constructors, getters, setters
-  // tag::adocskip[]
+  // tag::adocSkip[]
 
   public Book() {
   }
@@ -76,6 +76,6 @@ public class Book {
     sb.append('}');
     return sb.toString();
   }
-// end::adocskip[]
+// end::adocSkip[]
 }
 // end::adocSnippet[]

@@ -19,12 +19,12 @@ public class BookServiceTest {
   @Test
   public void shouldCheckNumberIsMock() {
 
-    // tag::adocskip[]
+    // tag::adocSkip[]
     // with 2.2 weld treats the two beans.xml files a two separate archives. To have test alternative override that
     // we need to switch off this feature
     System.setProperty(Weld.ARCHIVE_ISOLATION_SYSTEM_PROPERTY, "false");
 
-    // end::adocskip[]
+    // end::adocSkip[]
     SeContainerInitializer containerInit = SeContainerInitializer.newInstance();
     SeContainer container = containerInit.initialize();
 

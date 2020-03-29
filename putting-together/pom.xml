@@ -7,7 +7,7 @@
   <groupId>org.agoncal.fascicle.cdi</groupId>
   <artifactId>putting-together</artifactId>
   <version>2.0</version>
-  <!-- tag::adocskip[] -->
+  <!-- tag::adocSkip[] -->
   <name>CDI :: Putting It All Together</name>
 
   <parent>
@@ -15,7 +15,7 @@
     <artifactId>cdi</artifactId>
     <version>2.0</version>
   </parent>
-  <!-- end::adocskip[] -->
+  <!-- end::adocSkip[] -->
 
   <dependencies>
     <dependency>
