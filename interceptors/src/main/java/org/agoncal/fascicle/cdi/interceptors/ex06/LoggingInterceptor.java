@@ -12,7 +12,7 @@ import java.util.logging.Logger;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @Interceptor
 @Loggable
 @Priority(200)
@@ -31,4 +31,4 @@ public class LoggingInterceptor {
     }
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

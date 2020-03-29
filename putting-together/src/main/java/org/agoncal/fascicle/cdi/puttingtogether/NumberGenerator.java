@@ -6,9 +6,9 @@ package org.agoncal.fascicle.cdi.puttingtogether;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
  interface NumberGenerator {
 
   String generateNumber();
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

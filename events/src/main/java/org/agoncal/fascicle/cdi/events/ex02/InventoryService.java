@@ -11,7 +11,7 @@ import java.util.logging.Logger;
  *         http://www.antoniogoncalves.org
  *         --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class InventoryService {
 
   @Inject
@@ -19,13 +19,13 @@ public class InventoryService {
   List<Book> inventory = new ArrayList<>();
 
   public void addBook(@Observes @Added Book book) {
-    logger.warning("Adding book " + book.getTitle() + " to inventory");
+    logger.info("Adding book " + book.getTitle() + " to inventory");
     inventory.add(book);
   }
 
   public void removeBook(@Observes @Removed Book book) {
-    logger.warning("Removing book " + book.getTitle() + " to inventory");
+    logger.info("Removing book " + book.getTitle() + " to inventory");
     inventory.remove(book);
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

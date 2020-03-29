@@ -8,7 +8,7 @@ import javax.inject.Inject;
  *         http://www.antoniogoncalves.org
  *         --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class BookService {
 
   @Inject
@@ -24,4 +24,4 @@ public class BookService {
     return book;
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

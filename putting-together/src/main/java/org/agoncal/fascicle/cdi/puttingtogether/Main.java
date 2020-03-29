@@ -8,7 +8,7 @@ import javax.enterprise.inject.se.SeContainerInitializer;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class Main {
 
   public static void main(String[] args) {
@@ -25,4 +25,4 @@ public class Main {
     container.close();
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

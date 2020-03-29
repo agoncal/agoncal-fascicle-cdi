@@ -10,7 +10,7 @@ import java.util.logging.Logger;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @Alternative
 @ThirteenDigits
 public class MockGenerator implements NumberGenerator {
@@ -24,4 +24,4 @@ public class MockGenerator implements NumberGenerator {
     return "MOCK";
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

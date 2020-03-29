@@ -5,7 +5,7 @@ package org.agoncal.fascicle.cdi.puttingtogether;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class Book {
 
   private String title;
@@ -78,4 +78,4 @@ public class Book {
   }
 // end::adocskip[]
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

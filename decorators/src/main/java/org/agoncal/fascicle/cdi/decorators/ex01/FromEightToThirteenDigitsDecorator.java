@@ -10,7 +10,7 @@ import javax.inject.Inject;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @Decorator
 public class FromEightToThirteenDigitsDecorator implements NumberGenerator {
 
@@ -24,4 +24,4 @@ public class FromEightToThirteenDigitsDecorator implements NumberGenerator {
     return isbn;
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

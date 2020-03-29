@@ -9,7 +9,7 @@ import java.util.logging.Logger;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @EightDigits
 public class IssnGenerator implements NumberGenerator {
 
@@ -23,4 +23,4 @@ public class IssnGenerator implements NumberGenerator {
     return issn;
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]
