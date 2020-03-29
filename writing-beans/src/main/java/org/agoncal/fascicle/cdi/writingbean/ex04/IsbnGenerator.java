@@ -8,11 +8,11 @@ import java.util.Random;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class IsbnGenerator implements NumberGenerator {
 
   public String generateNumber() {
     return "13-84356-" + Math.abs(new Random().nextInt());
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

@@ -14,7 +14,7 @@ import java.util.logging.Logger;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @Transactional
 public class CustomerService {
 
@@ -41,4 +41,4 @@ public class CustomerService {
     }
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

@@ -5,7 +5,7 @@ package org.agoncal.fascicle.cdi.writingbean.ex02;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class BookService {
 
   private NumberGenerator numberGenerator;
@@ -20,4 +20,4 @@ public class BookService {
     return book;
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

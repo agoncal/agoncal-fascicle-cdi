@@ -10,7 +10,7 @@ import java.sql.SQLException;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @ApplicationScoped
 public class DerbyPingService {
 
@@ -21,4 +21,4 @@ public class DerbyPingService {
     conn.createStatement().executeQuery("SELECT 1 FROM SYSIBM.SYSDUMMY1");
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

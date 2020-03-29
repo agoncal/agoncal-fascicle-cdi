@@ -11,7 +11,7 @@ import java.sql.SQLException;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class JDBCConnectionProducer {
 
   @Produces
@@ -31,4 +31,4 @@ public class JDBCConnectionProducer {
     conn.close();
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

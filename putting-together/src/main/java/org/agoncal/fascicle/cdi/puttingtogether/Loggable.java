@@ -13,10 +13,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @InterceptorBinding
 @Target({METHOD, TYPE})
 @Retention(RUNTIME)
 public @interface Loggable {
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

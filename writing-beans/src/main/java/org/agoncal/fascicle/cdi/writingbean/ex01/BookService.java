@@ -13,7 +13,7 @@ import java.util.Date;
  * --
  */
 @Vetoed
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class BookService {
 
   @Inject
@@ -37,4 +37,4 @@ public class BookService {
     return book;
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

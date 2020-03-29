@@ -9,7 +9,7 @@ import java.util.logging.Logger;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class LoggingProducer {
 
   @Produces
@@ -17,4 +17,4 @@ public class LoggingProducer {
     return Logger.getLogger(injectionPoint.getMember().getDeclaringClass().getName());
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

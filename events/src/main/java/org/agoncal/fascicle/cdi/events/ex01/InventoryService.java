@@ -11,7 +11,7 @@ import java.util.logging.Logger;
  *         http://www.antoniogoncalves.org
  *         --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class InventoryService {
 
   @Inject
@@ -23,4 +23,4 @@ public class InventoryService {
     inventory.add(book);
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

@@ -8,7 +8,7 @@ import javax.inject.Inject;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @ThirteenDigits
 public class IsbnGenerator implements NumberGenerator {
 
@@ -28,4 +28,4 @@ public class IsbnGenerator implements NumberGenerator {
     return prefix + editorNumber + postfix;
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

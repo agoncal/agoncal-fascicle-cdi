@@ -8,7 +8,7 @@ import javax.inject.Named;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @Named
 public class BookService {
 
@@ -26,4 +26,4 @@ public class BookService {
     return "customer.xhtml";
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

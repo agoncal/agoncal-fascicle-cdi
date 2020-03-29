@@ -13,10 +13,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @Qualifier
 @Retention(RUNTIME)
 @Target({FIELD, TYPE, METHOD})
 public @interface ThirteenDigits {
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

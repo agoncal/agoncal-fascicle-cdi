@@ -13,7 +13,7 @@ import javax.transaction.Transactional;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @Transactional
 @Interceptors({I1.class, I2.class})
 public class CustomerService {
@@ -39,4 +39,4 @@ public class CustomerService {
     return em.merge(customer);
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

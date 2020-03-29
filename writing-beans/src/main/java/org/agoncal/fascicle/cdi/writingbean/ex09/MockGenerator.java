@@ -8,7 +8,7 @@ import javax.enterprise.inject.Alternative;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @Alternative
 public class MockGenerator implements NumberGenerator {
 
@@ -16,4 +16,4 @@ public class MockGenerator implements NumberGenerator {
     return "MOCK";
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

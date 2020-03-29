@@ -7,7 +7,7 @@ import javax.enterprise.inject.Produces;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class NumberProducer {
 
   @Produces
@@ -24,4 +24,4 @@ public class NumberProducer {
     return Math.abs(new java.util.Random().nextInt());
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

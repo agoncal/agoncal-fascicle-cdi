@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class BookServiceTest {
 
   @Test
@@ -37,4 +37,4 @@ public class BookServiceTest {
     container.close();
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

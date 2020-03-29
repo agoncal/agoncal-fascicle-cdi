@@ -13,7 +13,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
  * --
  */
 // @formatter:off
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @Qualifier
 @Retention(RUNTIME)
 @Target({FIELD, TYPE, METHOD})
@@ -26,5 +26,5 @@ public @interface NumberOfDigits {
     TWO, EIGHT, TEN, THIRTEEN
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]
 // @formatter:on

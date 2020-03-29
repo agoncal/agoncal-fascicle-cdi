@@ -9,7 +9,7 @@ import java.util.logging.Logger;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @ThirteenDigits
 public class IsbnGenerator implements NumberGenerator {
 
@@ -23,4 +23,4 @@ public class IsbnGenerator implements NumberGenerator {
     return isbn;
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

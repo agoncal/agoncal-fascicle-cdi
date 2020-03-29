@@ -10,7 +10,7 @@ import java.io.Serializable;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 @ConversationScoped
 public class CustomerCreatorWizard implements Serializable {
 
@@ -44,4 +44,4 @@ public class CustomerCreatorWizard implements Serializable {
     conversation.end();
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]

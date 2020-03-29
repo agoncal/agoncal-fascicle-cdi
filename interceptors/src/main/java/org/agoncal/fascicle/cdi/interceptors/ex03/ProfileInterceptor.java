@@ -11,7 +11,7 @@ import java.util.logging.Logger;
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocsnippet[]
+// tag::adocSnippet[]
 public class ProfileInterceptor {
 
   @Inject
@@ -38,4 +38,4 @@ public class ProfileInterceptor {
     }
   }
 }
-// end::adocsnippet[]
+// end::adocSnippet[]
