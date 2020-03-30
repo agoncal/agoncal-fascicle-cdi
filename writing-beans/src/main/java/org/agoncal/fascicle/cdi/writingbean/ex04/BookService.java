@@ -1,5 +1,6 @@
 package org.agoncal.fascicle.cdi.writingbean.ex04;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
 /**
@@ -8,10 +9,11 @@ import javax.inject.Inject;
  * --
  */
 // tag::adocSnippet[]
+@ApplicationScoped
 public class BookService {
 
   @Inject
-  private NumberGenerator numberGenerator;
+  NumberGenerator numberGenerator;
 
   public Book createBook(String title, Float price, String description) {
     Book book = new Book(title, price, description);
