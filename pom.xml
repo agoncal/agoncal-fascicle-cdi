@@ -26,7 +26,7 @@
     <!-- Other -->
     <version.jpa-api>2.2</version.jpa-api>
     <version.jta-api>1.2</version.jta-api>
-    <version.derby>10.13.1.1</version.derby>
+    <version.derby>10.14.2.0</version.derby>
     <version.hibernate>5.2.10.Final</version.hibernate>
     <!-- Test -->
     <version.junit>5.0.0</version.junit>
