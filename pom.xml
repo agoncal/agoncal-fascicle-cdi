@@ -11,6 +11,7 @@
   <modules>
     <module>decorators</module>
     <module>events</module>
+    <module>first-step</module>
     <module>getting-started</module>
     <module>interceptors</module>
     <module>putting-together</module>

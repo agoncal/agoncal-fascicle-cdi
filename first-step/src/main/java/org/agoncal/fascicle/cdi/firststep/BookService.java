@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.writingbean.ex06;
+package org.agoncal.fascicle.cdi.firststep;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -9,12 +9,10 @@ import javax.inject.Inject;
  * --
  */
 // tag::adocSnippet[]
-@ApplicationScoped
 public class BookService {
 
   @Inject
-  @ThirteenDigits
-  NumberGenerator numberGenerator;
+  private IsbnGenerator numberGenerator;
 
   public Book createBook(String title, Float price, String description) {
     Book book = new Book(title, price, description);

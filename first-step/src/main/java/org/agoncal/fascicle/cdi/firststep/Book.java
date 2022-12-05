@@ -1,20 +1,24 @@
-package org.agoncal.fascicle.cdi.puttingtogether;
+package org.agoncal.fascicle.cdi.firststep;
 
 /**
  * @author Antonio Goncalves
  * http://www.antoniogoncalves.org
  * --
  */
-// tag::adocSnippet[]
 public class Book {
+
+  // ======================================
+  // =             Attributes             =
+  // ======================================
 
   private String title;
   private Float price;
   private String description;
-  private String number;
+  private String isbn;
 
-  // Constructors, getters, setters
-  // tag::adocSkip[]
+  // ======================================
+  // =            Constructors            =
+  // ======================================
 
   public Book() {
   }
@@ -53,29 +57,11 @@ public class Book {
     this.description = description;
   }
 
-  public String getNumber() {
-    return number;
+  public String getIsbn() {
+    return isbn;
   }
 
-  public void setNumber(String number) {
-    this.number = number;
+  public void setIsbn(String isbn) {
+    this.isbn = isbn;
   }
-
-  // ======================================
-  // =         hash, equals, toString     =
-  // ======================================
-
-  @Override
-  public String toString() {
-    final StringBuilder sb = new StringBuilder();
-    sb.append("Book{");
-    sb.append("title='").append(title).append('\'');
-    sb.append(", price=").append(price);
-    sb.append(", description='").append(description).append('\'');
-    sb.append(", number='").append(number).append('\'');
-    sb.append('}');
-    return sb.toString();
-  }
-// end::adocSkip[]
 }
-// end::adocSnippet[]
