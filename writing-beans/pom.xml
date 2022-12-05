@@ -5,19 +5,19 @@
 
   <groupId>org.agoncal.fascicle.cdi</groupId>
   <artifactId>writing-bean</artifactId>
-  <version>2.0</version>
+  <version>4.0</version>
   <name>CDI :: Writing a CDI Bean</name>
 
   <parent>
     <groupId>org.agoncal.fascicle</groupId>
     <artifactId>cdi</artifactId>
-    <version>2.0</version>
+    <version>4.0</version>
   </parent>
 
   <dependencies>
     <dependency>
-      <groupId>javax.enterprise</groupId>
-      <artifactId>cdi-api</artifactId>
+      <groupId>jakarta.enterprise</groupId>
+      <artifactId>jakarta.enterprise.cdi-api</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.weld.se</groupId>
