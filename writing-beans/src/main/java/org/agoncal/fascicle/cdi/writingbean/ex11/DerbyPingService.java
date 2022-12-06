@@ -1,7 +1,7 @@
 package org.agoncal.fascicle.cdi.writingbean.ex11;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 import java.sql.Connection;
 import java.sql.SQLException;
 

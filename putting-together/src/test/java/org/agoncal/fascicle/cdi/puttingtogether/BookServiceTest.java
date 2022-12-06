@@ -3,8 +3,8 @@ package org.agoncal.fascicle.cdi.puttingtogether;
 import org.jboss.weld.environment.se.Weld;
 import org.junit.jupiter.api.Test;
 
-import javax.enterprise.inject.se.SeContainer;
-import javax.enterprise.inject.se.SeContainerInitializer;
+import jakarta.enterprise.inject.se.SeContainer;
+import jakarta.enterprise.inject.se.SeContainerInitializer;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

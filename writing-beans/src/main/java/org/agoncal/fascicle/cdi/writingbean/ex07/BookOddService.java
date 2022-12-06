@@ -1,6 +1,6 @@
 package org.agoncal.fascicle.cdi.writingbean.ex07;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import static org.agoncal.fascicle.cdi.writingbean.ex07.NumberOfDigits.Digits.THIRTEEN;
 

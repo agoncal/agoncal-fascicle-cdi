@@ -1,7 +1,7 @@
 package org.agoncal.fascicle.cdi.writingbean.ex05;
 
 
-import javax.enterprise.inject.Default;
+import jakarta.enterprise.inject.Default;
 import java.util.Random;
 
 /**

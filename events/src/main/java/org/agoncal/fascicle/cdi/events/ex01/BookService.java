@@ -1,7 +1,7 @@
 package org.agoncal.fascicle.cdi.events.ex01;
 
-import javax.enterprise.event.Event;
-import javax.inject.Inject;
+import jakarta.enterprise.event.Event;
+import jakarta.inject.Inject;
 
 /**
  * @author Antonio Goncalves

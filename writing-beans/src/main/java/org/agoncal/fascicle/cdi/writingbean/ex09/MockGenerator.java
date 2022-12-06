@@ -1,7 +1,7 @@
 package org.agoncal.fascicle.cdi.writingbean.ex09;
 
 
-import javax.enterprise.inject.Alternative;
+import jakarta.enterprise.inject.Alternative;
 
 /**
  * @author Antonio Goncalves

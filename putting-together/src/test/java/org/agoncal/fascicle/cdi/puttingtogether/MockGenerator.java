@@ -1,8 +1,8 @@
 package org.agoncal.fascicle.cdi.puttingtogether;
 
 
-import javax.enterprise.inject.Alternative;
-import javax.inject.Inject;
+import jakarta.enterprise.inject.Alternative;
+import jakarta.inject.Inject;
 import java.util.logging.Logger;
 
 /**

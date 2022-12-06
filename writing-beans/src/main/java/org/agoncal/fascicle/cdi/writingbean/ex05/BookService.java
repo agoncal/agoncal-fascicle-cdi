@@ -1,7 +1,7 @@
 package org.agoncal.fascicle.cdi.writingbean.ex05;
 
-import javax.enterprise.inject.Default;
-import javax.inject.Inject;
+import jakarta.enterprise.inject.Default;
+import jakarta.inject.Inject;
 
 /**
  * @author Antonio Goncalves

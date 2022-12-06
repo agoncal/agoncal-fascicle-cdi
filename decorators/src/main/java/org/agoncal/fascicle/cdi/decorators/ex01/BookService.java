@@ -1,6 +1,6 @@
 package org.agoncal.fascicle.cdi.decorators.ex01;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 /**
  * @author Antonio Goncalves

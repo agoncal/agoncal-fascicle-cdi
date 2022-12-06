@@ -1,7 +1,7 @@
 package org.agoncal.fascicle.cdi.writingbean.ex13;
 
-import javax.inject.Inject;
-import javax.inject.Named;
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 /**
  * @author Antonio Goncalves

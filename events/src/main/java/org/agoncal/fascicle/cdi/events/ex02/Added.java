@@ -1,6 +1,6 @@
 package org.agoncal.fascicle.cdi.events.ex02;
 
-import javax.inject.Qualifier;
+import jakarta.inject.Qualifier;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 

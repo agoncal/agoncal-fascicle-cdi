@@ -1,9 +1,9 @@
 package org.agoncal.fascicle.cdi.interceptors.ex03;
 
-import javax.annotation.PostConstruct;
-import javax.inject.Inject;
-import javax.interceptor.AroundInvoke;
-import javax.interceptor.InvocationContext;
+import jakarta.annotation.PostConstruct;
+import jakarta.inject.Inject;
+import jakarta.interceptor.AroundInvoke;
+import jakarta.interceptor.InvocationContext;
 import java.util.logging.Logger;
 
 /**

@@ -1,6 +1,6 @@
 package org.agoncal.fascicle.cdi.writingbean.ex04;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 /**
  * @author Antonio Goncalves

@@ -19,10 +19,11 @@
   </modules>
 
   <properties>
-    <version.java>1.8</version.java>
+    <version.java>11</version.java>
     <!-- CDI -->
-    <version.cdi-api>4.0.1</version.cdi-api>
+    <version.cdi>4.0.1</version.cdi>
     <version.weld>5.1.0.Final</version.weld>
+    <version.weld-junit5>4.0.0.Final</version.weld-junit5>
     <version.el>3.0.1-b08</version.el> <!-- TODO delete if not needed -->
     <!-- Other -->
     <version.jpa-api>2.2</version.jpa-api>
@@ -59,13 +60,19 @@
       <dependency>
         <groupId>jakarta.enterprise</groupId>
         <artifactId>jakarta.enterprise.cdi-api</artifactId>
-        <version>${version.cdi-api}</version>
-        <scope>provided</scope>
+        <version>${version.cdi}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.weld</groupId>
-        <artifactId>weld-core-bom</artifactId>
+        <artifactId>weld-junit5</artifactId>
+        <version>${version.weld-junit5}</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.weld.se</groupId>
+        <artifactId>weld-se-core</artifactId>
         <version>${version.weld}</version>
+        <scope>runtime</scope>
       </dependency>
       <!-- Other -->
       <dependency>

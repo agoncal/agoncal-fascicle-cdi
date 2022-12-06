@@ -1,6 +1,6 @@
 package org.agoncal.fascicle.cdi.puttingtogether;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 /**
  * @author Antonio Goncalves

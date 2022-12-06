@@ -1,9 +1,10 @@
 package org.agoncal.fascicle.cdi.firstlook;
 
-
+// tag::adocSnippet[]
 import jakarta.enterprise.context.ApplicationScoped;
-
 import java.util.Random;
+
+// tag::adocSnippet[]
 
 /**
  * @author Antonio Goncalves

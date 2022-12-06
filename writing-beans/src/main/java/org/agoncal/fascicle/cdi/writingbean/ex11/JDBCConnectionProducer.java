@@ -1,7 +1,7 @@
 package org.agoncal.fascicle.cdi.writingbean.ex11;
 
-import javax.enterprise.inject.Disposes;
-import javax.enterprise.inject.Produces;
+import jakarta.enterprise.inject.Disposes;
+import jakarta.enterprise.inject.Produces;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

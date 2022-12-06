@@ -1,6 +1,6 @@
 package org.agoncal.fascicle.cdi.puttingtogether;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import java.util.Random;
 import java.util.logging.Logger;
 

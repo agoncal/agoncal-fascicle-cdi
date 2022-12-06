@@ -1,7 +1,7 @@
 package org.agoncal.fascicle.cdi.puttingtogether;
 
-import javax.enterprise.inject.se.SeContainer;
-import javax.enterprise.inject.se.SeContainerInitializer;
+import jakarta.enterprise.inject.se.SeContainer;
+import jakarta.enterprise.inject.se.SeContainerInitializer;
 
 /**
  * @author Antonio Goncalves

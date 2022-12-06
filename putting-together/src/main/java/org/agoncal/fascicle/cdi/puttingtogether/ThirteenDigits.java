@@ -1,7 +1,7 @@
 package org.agoncal.fascicle.cdi.puttingtogether;
 
 
-import javax.inject.Qualifier;
+import jakarta.inject.Qualifier;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 

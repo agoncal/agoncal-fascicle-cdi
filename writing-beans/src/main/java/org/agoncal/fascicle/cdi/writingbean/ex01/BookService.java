@@ -1,8 +1,8 @@
 package org.agoncal.fascicle.cdi.writingbean.ex01;
 
-import javax.annotation.PostConstruct;
-import javax.enterprise.inject.Vetoed;
-import javax.inject.Inject;
+import jakarta.annotation.PostConstruct;
+import jakarta.enterprise.inject.Vetoed;
+import jakarta.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.transaction.Transactional;
 import java.util.Date;

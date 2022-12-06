@@ -2,8 +2,8 @@ package org.agoncal.fascicle.cdi.interceptors.ex02;
 
 import org.agoncal.fascicle.cdi.interceptors.Customer;
 
-import javax.inject.Inject;
-import javax.interceptor.Interceptors;
+import jakarta.inject.Inject;
+import jakarta.interceptor.Interceptors;
 import javax.persistence.EntityManager;
 import javax.transaction.Transactional;
 
