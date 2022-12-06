@@ -4,7 +4,7 @@ package org.agoncal.fascicle.cdi.firstlook;
 import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Random;
 
-// tag::adocSnippet[]
+// end::adocSnippet[]
 
 /**
  * @author Antonio Goncalves
