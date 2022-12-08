@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex02;
+package org.agoncal.fascicle.cdi.dependencyinjection.newconstructor;
 
 
 /**

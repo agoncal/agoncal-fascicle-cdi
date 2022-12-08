@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex03;
+package org.agoncal.fascicle.cdi.dependencyinjection.newconstructor;
 
 
 import java.util.Random;

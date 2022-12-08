@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex02;
+package org.agoncal.fascicle.cdi.dependencyinjection.newconstructor;
 
 import org.junit.jupiter.api.Test;
 
@@ -19,11 +19,15 @@ public class NumberGeneratorTest {
 
   @Test
   public void shouldCheckNumberIsThirteenDigits() {
-
-    BookService bookService = new BookService();
-
+    BookService bookService = new BookService(new IsbnGenerator());
     Book book = bookService.createBook("H2G2", 12.5f, "Geeky scifi Book");
-
     assertTrue(book.getIsbn().startsWith("13"));
+  }
+
+  @Test
+  public void shouldCheckNumberIsEightDigits() {
+    BookService bookService = new BookService(new IssnGenerator());
+    Book book = bookService.createBook("H2G2", 12.5f, "Geeky scifi Book");
+    assertTrue(book.getIsbn().startsWith("8"));
   }
 }

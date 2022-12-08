@@ -1,4 +1,5 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex03;
+package org.agoncal.fascicle.cdi.dependencyinjection.newinstance;
+
 
 import java.util.Random;
 
@@ -7,13 +8,13 @@ import java.util.Random;
  * http://www.antoniogoncalves.org
  * --
  */
-public class IssnGenerator implements NumberGenerator {
+public class IsbnGenerator implements NumberGenerator {
 
   // ======================================
   // =          Business methods          =
   // ======================================
 
   public String generateNumber() {
-    return "8-" + Math.abs(new Random().nextInt());
+    return "13-84356-" + Math.abs(new Random().nextInt());
   }
 }

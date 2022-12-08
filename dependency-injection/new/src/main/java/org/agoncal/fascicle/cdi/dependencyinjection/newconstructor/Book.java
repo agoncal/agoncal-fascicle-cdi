@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex02;
+package org.agoncal.fascicle.cdi.dependencyinjection.newconstructor;
 
 /**
  * @author Antonio Goncalves
@@ -72,7 +72,7 @@ public class Book {
   @Override
   public String toString() {
     final StringBuilder sb = new StringBuilder();
-    sb.append("Book");
+    sb.append("Book02");
     sb.append(", title='").append(title).append('\'');
     sb.append(", price=").append(price);
     sb.append(", description='").append(description).append('\'');
