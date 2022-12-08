@@ -16,6 +16,7 @@
   </parent>
 
   <modules>
+    <module>inject</module>
     <module>injection-point</module>
     <module>new</module>
   </modules>
