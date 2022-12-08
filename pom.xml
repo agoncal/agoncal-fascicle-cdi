@@ -10,12 +10,12 @@
 
   <modules>
     <module>decorators</module>
+    <module>dependency-injection</module>
     <module>events</module>
     <module>first-look</module>
     <module>getting-started</module>
     <module>interceptors</module>
     <module>putting-together</module>
-    <module>writing-beans</module>
   </modules>
 
   <properties>
@@ -34,7 +34,7 @@
     <version.junit>5.0.0</version.junit>
     <!-- Maven Plugins -->
     <version.clean.plugin>3.0.0</version.clean.plugin>
-    <version.compiler.plugin>3.6.2</version.compiler.plugin>
+    <version.compiler.plugin>3.10.1</version.compiler.plugin>
     <version.dependency.plugin>3.0.1</version.dependency.plugin>
     <version.exec.plugin>1.6.0</version.exec.plugin>
     <version.failsafe.plugin>2.20</version.failsafe.plugin>
