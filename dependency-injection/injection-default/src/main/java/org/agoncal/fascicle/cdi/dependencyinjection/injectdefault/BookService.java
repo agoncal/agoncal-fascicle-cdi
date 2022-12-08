@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex05;
+package org.agoncal.fascicle.cdi.dependencyinjection.injectdefault;
 
 import jakarta.enterprise.inject.Default;
 import jakarta.inject.Inject;

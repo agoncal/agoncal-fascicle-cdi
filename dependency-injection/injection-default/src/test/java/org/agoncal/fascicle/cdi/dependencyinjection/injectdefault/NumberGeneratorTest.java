@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex05;
+package org.agoncal.fascicle.cdi.dependencyinjection.injectdefault;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;

@@ -17,6 +17,7 @@
 
   <modules>
     <module>inject</module>
+    <module>inject-default</module>
     <module>injection-point</module>
     <module>new</module>
   </modules>
