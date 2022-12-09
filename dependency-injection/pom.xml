@@ -22,6 +22,7 @@
     <module>injection-point</module>
     <module>injection-qualifiers</module>
     <module>injection-qualifiers-members</module>
+    <module>injection-qualifiers-multiple</module>
     <module>new</module>
   </modules>
 

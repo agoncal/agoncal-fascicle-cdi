@@ -13,6 +13,7 @@
     <module>decorators</module>
     <module>dependency-injection</module>
     <module>events</module>
+    <module>expression-language</module>
     <module>first-look</module>
     <module>getting-started</module>
     <module>interceptors</module>
