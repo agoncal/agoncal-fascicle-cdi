@@ -16,9 +16,11 @@
   </parent>
 
   <modules>
-    <module>inject</module>
-    <module>inject-default</module>
+    <module>injection</module>
+    <module>injection-alternatives</module>
+    <module>injection-default</module>
     <module>injection-point</module>
+    <module>injection-qualifiers</module>
     <module>new</module>
   </modules>
 

@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.agoncal.fascicle.cdi.dependency-injection</groupId>
-  <artifactId>injection-default</artifactId>
+  <artifactId>injection</artifactId>
   <version>4.0</version>
-  <name>CDI :: Dependency Injection :: Injection Default</name>
+  <name>CDI :: Dependency Injection :: Injection</name>
 
   <parent>
     <groupId>org.agoncal.fascicle.cdi</groupId>

@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.agoncal.fascicle.cdi.dependency-injection</groupId>
-  <artifactId>inject</artifactId>
+  <artifactId>injection-qualifiers</artifactId>
   <version>4.0</version>
-  <name>CDI :: Dependency Injection :: Inject</name>
+  <name>CDI :: Dependency Injection :: Injection Qualifiers</name>
 
   <parent>
     <groupId>org.agoncal.fascicle.cdi</groupId>
