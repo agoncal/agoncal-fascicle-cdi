@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex07;
+package org.agoncal.fascicle.cdi.dependencyinjection.qualifiersmembers;
 
 import jakarta.inject.Qualifier;
 import java.lang.annotation.Retention;

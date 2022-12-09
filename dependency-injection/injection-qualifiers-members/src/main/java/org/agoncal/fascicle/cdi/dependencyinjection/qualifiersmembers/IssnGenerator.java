@@ -1,8 +1,8 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex07;
+package org.agoncal.fascicle.cdi.dependencyinjection.qualifiersmembers;
 
 import java.util.Random;
 
-import static org.agoncal.fascicle.cdi.dependencyinjection.ex07.NumberOfDigits.Digits.EIGHT;
+import static org.agoncal.fascicle.cdi.dependencyinjection.qualifiersmembers.NumberOfDigits.Digits.EIGHT;
 
 /**
  * @author Antonio Goncalves

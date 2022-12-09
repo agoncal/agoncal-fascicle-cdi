@@ -21,6 +21,7 @@
     <module>injection-default</module>
     <module>injection-point</module>
     <module>injection-qualifiers</module>
+    <module>injection-qualifiers-members</module>
     <module>new</module>
   </modules>
 

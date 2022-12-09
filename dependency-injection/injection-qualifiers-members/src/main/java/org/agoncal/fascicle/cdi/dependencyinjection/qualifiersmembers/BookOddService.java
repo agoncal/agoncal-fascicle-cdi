@@ -1,22 +1,22 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex07;
+package org.agoncal.fascicle.cdi.dependencyinjection.qualifiersmembers;
 
 import jakarta.inject.Inject;
 
-import static org.agoncal.fascicle.cdi.dependencyinjection.ex07.NumberOfDigits.Digits.EIGHT;
+import static org.agoncal.fascicle.cdi.dependencyinjection.qualifiersmembers.NumberOfDigits.Digits.THIRTEEN;
 
 /**
  * @author Antonio Goncalves
  * http://www.antoniogoncalves.org
  * --
  */
-public class LegacyBookService {
+public class BookOddService {
 
   // ======================================
   // =             Attributes             =
   // ======================================
 
   @Inject
-  @NumberOfDigits(value = EIGHT, odd = true)
+  @NumberOfDigits(value = THIRTEEN, odd = true)
   private NumberGenerator numberGenerator;
 
   // ======================================
