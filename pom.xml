@@ -9,6 +9,7 @@
   <name>CDI</name>
 
   <modules>
+    <module>alternatives</module>
     <module>decorators</module>
     <module>dependency-injection</module>
     <module>events</module>
