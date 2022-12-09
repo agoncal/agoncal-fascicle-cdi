@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex10;
+package org.agoncal.fascicle.cdi.producers.produce;
 
 
 /**

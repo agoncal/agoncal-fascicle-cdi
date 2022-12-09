@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex11;
+package org.agoncal.fascicle.cdi.producers.produce;
 
 import jakarta.enterprise.inject.Disposes;
 import jakarta.enterprise.inject.Produces;

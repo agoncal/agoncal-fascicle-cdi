@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex11;
+package org.agoncal.fascicle.cdi.producers.produce;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

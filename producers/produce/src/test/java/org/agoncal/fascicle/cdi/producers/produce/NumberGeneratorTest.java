@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex11;
+package org.agoncal.fascicle.cdi.producers.produce;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -7,15 +7,14 @@ import org.junit.jupiter.api.Test;
 import jakarta.enterprise.inject.se.SeContainer;
 import jakarta.enterprise.inject.se.SeContainerInitializer;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * @author Antonio Goncalves
  * http://www.antoniogoncalves.org
  * --
  */
-public class DerbyPingServiceTest {
+public class NumberGeneratorTest {
 
   // ======================================
   // =             Attributes             =
@@ -44,16 +43,10 @@ public class DerbyPingServiceTest {
   // ======================================
 
   @Test
-  public void shouldPingDatabase() throws Exception {
-    Class.forName("org.apache.derby.jdbc.EmbeddedDriver").newInstance();
-    Connection conn = DriverManager.getConnection("jdbc:derby:memory:chapter02DB;create=true", "APP2", "APP");
-    conn.createStatement().executeQuery("SELECT 1 FROM SYSIBM.SYSDUMMY1");
-    conn.close();
-  }
-
-  @Test
-  public void shouldPingDatabaseWithDispose() throws Exception {
-    DerbyPingService pingService = container.select(DerbyPingService.class).get();
-    pingService.ping();
+  public void shouldCheckNumberIsThirteenDigits() {
+    BookService bookService = container.select(BookService.class).get();
+    Book book = bookService.createBook("H2G2", 12.5f, "Geeky scifi Book");
+    System.out.println("########### " + book.getIsbn());
+    assertTrue(book.getIsbn().startsWith("13"));
   }
 }
