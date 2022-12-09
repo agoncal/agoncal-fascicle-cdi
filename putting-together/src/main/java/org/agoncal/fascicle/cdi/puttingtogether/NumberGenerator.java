@@ -7,7 +7,7 @@ package org.agoncal.fascicle.cdi.puttingtogether;
  * --
  */
 // tag::adocSnippet[]
- interface NumberGenerator {
+interface NumberGenerator {
 
   String generateNumber();
 }
