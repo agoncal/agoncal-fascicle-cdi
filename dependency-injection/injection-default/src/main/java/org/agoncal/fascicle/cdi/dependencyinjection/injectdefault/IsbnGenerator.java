@@ -1,6 +1,7 @@
 package org.agoncal.fascicle.cdi.dependencyinjection.injectdefault;
 
 
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.inject.Default;
 import java.util.Random;
 
@@ -9,6 +10,7 @@ import java.util.Random;
  * http://www.antoniogoncalves.org
  * --
  */
+@ApplicationScoped
 // tag::adocSnippet[]
 @Default
 public class IsbnGenerator implements NumberGenerator {

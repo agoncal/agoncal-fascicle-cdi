@@ -1,5 +1,6 @@
 package org.agoncal.fascicle.cdi.dependencyinjection.injectdefault;
 
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.inject.Default;
 import jakarta.inject.Inject;
 
@@ -8,14 +9,16 @@ import jakarta.inject.Inject;
  * http://www.antoniogoncalves.org
  * --
  */
-public class BookService {
+// @formatter:off
+@ApplicationScoped
+public class LegacyBookService {
 
   // ======================================
   // =             Attributes             =
   // ======================================
 
   // tag::adocSnippet[]
-  @Inject
+  @Inject @Default
   private NumberGenerator numberGenerator;
   // end::adocSnippet[]
 
