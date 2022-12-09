@@ -1,5 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex06;
-
+package org.agoncal.fascicle.cdi.dependencyinjection.qualifiers;
 
 import java.util.Random;
 
@@ -9,11 +8,11 @@ import java.util.Random;
  * --
  */
 // tag::adocSnippet[]
-@ThirteenDigits
-public class IsbnGenerator implements NumberGenerator {
+@EightDigits
+public class IssnGenerator implements NumberGenerator {
 
   public String generateNumber() {
-    return "13-84356-" + Math.abs(new Random().nextInt());
+    return "8-" + Math.abs(new Random().nextInt());
   }
 }
 // end::adocSnippet[]

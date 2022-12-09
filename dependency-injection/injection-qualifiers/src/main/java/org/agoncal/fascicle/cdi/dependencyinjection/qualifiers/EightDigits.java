@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex06;
+package org.agoncal.fascicle.cdi.dependencyinjection.qualifiers;
 
 import jakarta.inject.Qualifier;
 import java.lang.annotation.Retention;
@@ -16,6 +16,6 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Qualifier
 @Retention(RUNTIME)
 @Target({FIELD, TYPE, METHOD})
-public @interface ThirteenDigits {
+public @interface EightDigits {
 }
 // end::adocSnippet[]

@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex06;
+package org.agoncal.fascicle.cdi.dependencyinjection.qualifiers;
 
 
 /**
