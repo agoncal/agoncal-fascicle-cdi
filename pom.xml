@@ -16,6 +16,7 @@
     <module>getting-started</module>
     <module>interceptors</module>
     <module>putting-together</module>
+    <module>understanding</module>
   </modules>
 
   <properties>

@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex01;
+package org.agoncal.fascicle.cdi.understanding.beans;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.inject.Vetoed;
