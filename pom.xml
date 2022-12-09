@@ -19,6 +19,7 @@
     <module>interceptors</module>
     <module>producers</module>
     <module>putting-together</module>
+    <module>scopes</module>
     <module>understanding</module>
   </modules>
 

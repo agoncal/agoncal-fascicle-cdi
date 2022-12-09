@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection.ex12;
+package org.agoncal.fascicle.cdi.scopes;
 
 import java.io.Serializable;
 
