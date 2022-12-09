@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.cdi.dependencyinjection;
+package org.agoncal.fascicle.cdi.producers.produce;
 
 import jakarta.enterprise.inject.Produces;
 import jakarta.enterprise.inject.spi.InjectionPoint;
