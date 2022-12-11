@@ -32,8 +32,8 @@
     <version.weld-junit5>4.0.0.Final</version.weld-junit5>
     <version.el>3.0.1-b08</version.el> <!-- TODO delete if not needed -->
     <!-- Other -->
-    <version.jpa-api>2.2</version.jpa-api>
-    <version.jta-api>1.2</version.jta-api>
+    <version.jpa-api>3.1.0</version.jpa-api>
+    <version.jta-api>2.0.0</version.jta-api>
     <version.derby>10.13.1.1</version.derby>
     <version.hibernate>5.2.10.Final</version.hibernate>
     <!-- Test -->
@@ -72,13 +72,13 @@
       </dependency>
       <!-- Other -->
       <dependency>
-        <groupId>javax.persistence</groupId>
-        <artifactId>javax.persistence-api</artifactId>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
         <version>${version.jpa-api}</version>
       </dependency>
       <dependency>
-        <groupId>javax.transaction</groupId>
-        <artifactId>javax.transaction-api</artifactId>
+        <groupId>jakarta.transaction</groupId>
+        <artifactId>jakarta.transaction-api</artifactId>
         <version>${version.jta-api}</version>
       </dependency>
       <dependency>

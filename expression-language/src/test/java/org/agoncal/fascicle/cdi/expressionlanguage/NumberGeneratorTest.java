@@ -1,15 +1,9 @@
 package org.agoncal.fascicle.cdi.expressionlanguage;
 
-import org.agoncal.fascicle.cdi.dependencyinjection.ex10.Book;
-import org.agoncal.fascicle.cdi.dependencyinjection.ex10.BookService;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-
 import jakarta.enterprise.inject.se.SeContainer;
 import jakarta.enterprise.inject.se.SeContainerInitializer;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 
 /**
  * @author Antonio Goncalves
@@ -44,11 +38,12 @@ public class NumberGeneratorTest {
   // =              Methods               =
   // ======================================
 
-  @Test
-  public void shouldCheckNumberIsThirteenDigits() {
-    BookService bookService = container.select(BookService.class).get();
-    Book book = bookService.createBook("H2G2", 12.5f, "Geeky scifi Book");
-    System.out.println("########### " + book.getIsbn());
-    assertTrue(book.getIsbn().startsWith("13"));
-  }
+//  @Test
+//  public void shouldCheckNumberIsThirteenDigits() {
+//    BookService bookService = container.select(BookService.class).get();
+//    Book book = bookService.createBook();
+////    Book book = bookService.createBook("H2G2", 12.5f, "Geeky scifi Book");
+//    System.out.println("########### " + book.getIsbn());
+//    assertTrue(book.getIsbn().startsWith("13"));
+//  }
 }

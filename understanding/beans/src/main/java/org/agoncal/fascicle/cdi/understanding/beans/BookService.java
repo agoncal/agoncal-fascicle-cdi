@@ -3,8 +3,8 @@ package org.agoncal.fascicle.cdi.understanding.beans;
 import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.inject.Vetoed;
 import jakarta.inject.Inject;
-import javax.persistence.EntityManager;
-import javax.transaction.Transactional;
+import jakarta.persistence.EntityManager;
+import jakarta.transaction.Transactional;
 import java.util.Date;
 
 /**

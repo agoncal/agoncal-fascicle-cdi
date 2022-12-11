@@ -3,8 +3,8 @@ package org.agoncal.fascicle.cdi.interceptors.ex05;
 import org.agoncal.fascicle.cdi.interceptors.Customer;
 
 import jakarta.inject.Inject;
-import javax.persistence.EntityManager;
-import javax.transaction.Transactional;
+import jakarta.persistence.EntityManager;
+import jakarta.transaction.Transactional;
 
 /**
  * @author Antonio Goncalves

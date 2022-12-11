@@ -1,12 +1,12 @@
 package org.agoncal.fascicle.cdi.interceptors;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Temporal;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.Temporal;
 import java.util.Date;
 
-import static javax.persistence.TemporalType.DATE;
+import static jakarta.persistence.TemporalType.DATE;
 
 /**
  * @author Antonio Goncalves

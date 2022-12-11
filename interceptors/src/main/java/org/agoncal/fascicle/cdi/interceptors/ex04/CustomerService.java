@@ -5,8 +5,8 @@ import org.agoncal.fascicle.cdi.interceptors.Customer;
 import jakarta.inject.Inject;
 import jakarta.interceptor.ExcludeClassInterceptors;
 import jakarta.interceptor.Interceptors;
-import javax.persistence.EntityManager;
-import javax.transaction.Transactional;
+import jakarta.persistence.EntityManager;
+import jakarta.transaction.Transactional;
 
 /**
  * @author Antonio Goncalves
